@@ -1,0 +1,32 @@
+{
+  "name": "BackEndTakeHome",
+  "version": "1.0.0",
+  "description": "Example Back-End API Request",
+  "main": "api.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarioCarloni/BackEndTakeHome.git"
+  },
+  "keywords": [
+    "express",
+    "take-home",
+    "back-end"
+  ],
+  "author": "Mario Carloni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarioCarloni/BackEndTakeHome/issues"
+  },
+  "homepage": "https://github.com/MarioCarloni/BackEndTakeHome#readme"
+}
