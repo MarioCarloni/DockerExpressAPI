@@ -2,7 +2,7 @@
 
 **Example Back-End API Request**
 
-> This API is built to request a record from a dataset found [here](https://data.providenceri.gov/Finance/2017-Property-Tax-Roll/ku9m-5rhr).
+> This API is built to request records from from a Socrata API dataset found [here](https://data.providenceri.gov/Finance/2017-Property-Tax-Roll/ku9m-5rhr).
 
 - [Getting Started with Node](#getting-started-with-node)
 - [Getting Started with Docker](#getting-started-with-docker)
