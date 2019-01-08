@@ -39,7 +39,7 @@ cd BackEndTakeHome
 # 2. Build and tag Docker container using directory contents
 docker build -t username/app-name .
 
-# 3. Run container at any specified post, exposing port 8080
+# 3. Run container at any specified port, exposing port 8080
 docker run -p 9001:8080 username/app-name
 
 # 4. In your web-browser, navigate to http://localhost:9001/record/# where # is the row number to request
