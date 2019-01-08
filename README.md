@@ -53,5 +53,5 @@ docker-compose down
 ### Production Considerations
 * Larger datasets should be housed in database
 * CORS and middleware parsing should be configured to accept auth tokens
-* Socrata API (SODA) parameter `$limit` can be used to unlimit dataset query from 1000 to max rows, so long as the row count is less than the 50,000 limit
+* Socrata API (SODA) parameter `$limit` can be used to unlimit dataset query from 1000 to the 50000 row limit
     * See [Here](https://support.socrata.com/hc/en-us/articles/202949268-How-to-query-more-than-1000-rows-of-a-dataset)
