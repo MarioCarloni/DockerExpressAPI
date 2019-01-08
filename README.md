@@ -4,7 +4,8 @@
 
 > This API is built to request a record from a dataset found [here](https://data.providenceri.gov/Finance/2017-Property-Tax-Roll/ku9m-5rhr).
 
-- [Getting Started](#getting-started)
+- [Getting Started with Node](#getting-started-with-node)
+- [Getting Started with Docker](#getting-started-with-docker)
 - [Architectural Decisions](#architectural-decisions)
 
 ## Dependencies
@@ -14,7 +15,7 @@
 * [Cors](https://www.npmjs.com/package/cors)
 * [Body-Parser](https://www.npmjs.com/package/body-parser)
 
-## Getting started
+## Getting started with Node
 
 ```bash
 # 1. Enter project folder
@@ -27,6 +28,21 @@ npm i
 node api.js
 
 # 4. In your web-browser, navigate to http://localhost:8080/record/# where # is the row number to request
+```
+
+## Getting started with Docker
+
+```bash
+# 1. Enter project folder
+cd BackEndTakeHome
+
+# 2. Build and tag Docker container using directory contents
+docker build -t username/app-name .
+
+# 3. Run container at any specified post, exposing port 8080
+docker run -p 9001:8080 username/app-name
+
+# 4. In your web-browser, navigate to http://localhost:9001/record/# where # is the row number to request
 ```
 
 ## Architectural Decisions
