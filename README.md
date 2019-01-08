@@ -36,13 +36,13 @@ node api.js
 # 1. Enter project folder
 cd BackEndTakeHome
 
-# 2. Build and tag Docker container using directory contents
-docker build -t username/app-name .
+# 2. Build and run container specified from Yaml and Dockerfile
+docker-compose up
 
-# 3. Run container at any specified post, exposing port 8080
-docker run -p 9001:8080 username/app-name
+# 4. In your web-browser, navigate to http://localhost:9000/record/# where # is the row number to request
 
-# 4. In your web-browser, navigate to http://localhost:9001/record/# where # is the row number to request
+# 5. Stop the API
+docker-compose down
 ```
 
 ## Architectural Decisions
